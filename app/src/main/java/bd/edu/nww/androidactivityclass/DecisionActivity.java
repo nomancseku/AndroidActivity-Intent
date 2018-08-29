@@ -44,6 +44,7 @@ public class DecisionActivity extends AppCompatActivity implements RadioGroup.On
             binding.relativeLayout.setBackgroundColor(Color.RED);
             Toast.makeText(DecisionActivity.this, "Male Selected", Toast.LENGTH_SHORT).show();
         } else if (selectedButtonID == R.id.radioBtn_female) {
+            binding.relativeLayout.setBackgroundColor(Color.CYAN);
             Toast.makeText(DecisionActivity.this, "Female Selected", Toast.LENGTH_SHORT).show();
 
         }
